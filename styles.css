@@ -1,0 +1,98 @@
+.gameback{
+  background: radial-gradient(45rem, #bdc3c7, #2c3e50);
+}
+
+h1{
+  font-family: 'Press Start 2P',cursive;
+  font-size: 1.9rem;
+  margin: 5%;
+  text-align: center;
+  color: #fef2bf;
+  /* color: #011f3f; */
+}
+
+.button{
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  border-width: 0.5rem;
+  margin: 15px;
+  border-color: #2c3e50;
+}
+
+.btn{
+  text-align: center;
+}
+
+.green{
+  background: linear-gradient(to left bottom,darkgreen, lime, darkgreen);
+}
+
+.red{
+  background: linear-gradient(to right bottom,darkred, red, darkred);
+}
+
+.yellow{
+  background: linear-gradient(to left top,orange, yellow, orange);
+}
+
+.blue{
+  background: linear-gradient(to right top ,blue, deepskyblue, blue);
+}
+
+.pressed{
+    box-shadow: 0 0 20px black;
+    background: grey;
+}
+
+.game-over{
+  background: radial-gradient(50rem,red, salmon);
+}
+
+.playbutton{
+  text-align: center;
+}
+
+.index{
+  background: radial-gradient(45rem, #bdc3c7, #2c3e50);
+  }
+
+.playbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 90vh;
+}
+
+.button-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80vw;
+}
+
+.playme{
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  border-color: white;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+ }
+
+ .btn:hover {
+  background-position: right center;
+}
